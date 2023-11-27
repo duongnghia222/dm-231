@@ -1,7 +1,8 @@
 import pandas as pd
 
 # Read in DataFrame
-df = pd.read_csv('san_francisco_weather.csv')
+# df = pd.read_csv('san_francisco_weather.csv')
+df = pd.read_csv('los_angeles_weather.csv')
 
 # Numeric columns
 num_cols = ['humidity', 'pressure', 'temperature', 'wind_speed']
@@ -128,4 +129,5 @@ print(nan_check_after)
 
 
 # Write cleaned data to CSV
-df.to_csv('san_francisco_weather_cleaned.csv', index=False)
+# df.to_csv('san_francisco_weather_cleaned.csv', index=False)
+df.to_csv('los_angeles_weather_cleaned.csv', index=False)
