@@ -6,7 +6,7 @@ df = pd.read_csv('san_francisco_weather_cleaned.csv')
 
 # Features and target variable
 features = ['humidity', 'pressure', 'temperature', 'wind_direction', 'wind_speed']
-target = 'weather_desc'
+target = 'weather_desc_encoded'
 
 # Separate features and target
 X = df[features]

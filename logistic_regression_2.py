@@ -10,7 +10,7 @@ df = pd.read_csv('san_francisco_weather_cleaned_resampled.csv')
 
 # Features and target variable
 features = ['humidity', 'pressure', 'temperature', 'wind_direction', 'wind_speed']
-target = 'weather_desc'
+target = 'weather_desc_encoded'
 
 # Data preprocessing
 # (Assuming label encoding for 'weather_desc' has been done previously)
