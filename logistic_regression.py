@@ -23,6 +23,7 @@ lr_model = LogisticRegression(random_state=42, max_iter=10000)
 lr_model.fit(X_train, y_train)
 print(f"Number of iterations: {lr_model.n_iter_}")
 
+
 # Predictions
 y_pred = lr_model.predict(X_test)
 
